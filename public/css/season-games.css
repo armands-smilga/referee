@@ -1,0 +1,35 @@
+
+/* season games padding */
+.season-games-container {
+    padding:20px;
+}
+/* chart */
+.chart-container {
+    max-height:500px;
+    height:100%;
+    width:100%;
+    margin-bottom:20px;
+}
+.season-games-table { /* space between Add a new Game button */
+    margin-top:20px;
+}
+.season-games-table th {
+    background-color:#343a40; /* header */
+    color:#ffffff;
+}
+.season-games-table td {
+    background-color:#282932; /* dark background inbetween table data */
+    color:#efeeee;
+}
+.season-games-table .btn {
+    margin:5px 0; /* space for buttons */
+}
+/* responsive design for small-screens */
+@media( max-width:768px ) {
+    .season-games-container {
+        padding:10px;
+    }
+    .chart-container {
+        margin-bottom:10px;
+    }
+}
